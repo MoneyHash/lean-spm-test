@@ -1,0 +1,173 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "MoneyHashLean",
+    "printedName": "MoneyHashLean",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MoneyHashLean",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "MoneyHashCore",
+        "printedName": "MoneyHashCore",
+        "declKind": "Import",
+        "moduleName": "MoneyHashLean"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "MoneyHashLean"
+      },
+      {
+        "kind": "Import",
+        "name": "LeanSDK",
+        "printedName": "LeanSDK",
+        "declKind": "Import",
+        "moduleName": "MoneyHashLean"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MoneyHashLean",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "MoneyHashCore",
+        "printedName": "MoneyHashCore",
+        "declKind": "Import",
+        "moduleName": "MoneyHashLean"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "DefaultMoneyHashLeanBuilder",
+        "printedName": "DefaultMoneyHashLeanBuilder",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(moneyHashSDK:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DefaultMoneyHashLeanBuilder",
+                "printedName": "MoneyHashLean.DefaultMoneyHashLeanBuilder",
+                "usr": "s:13MoneyHashLean07DefaultabC7BuilderC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(any MoneyHashCore.MoneyHashSDK)?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MoneyHashSDK",
+                    "printedName": "any MoneyHashCore.MoneyHashSDK",
+                    "usr": "s:13MoneyHashCore0aB3SDKP"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:13MoneyHashLean07DefaultabC7BuilderC05moneyB3SDKAC0aB4Core0abG0_pSg_tcfc",
+            "mangledName": "$s13MoneyHashLean07DefaultabC7BuilderC05moneyB3SDKAC0aB4Core0abG0_pSg_tcfc",
+            "moduleName": "MoneyHashLean",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "setMoneyHashSDK",
+            "printedName": "setMoneyHashSDK(moneyHashSDK:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DefaultMoneyHashLeanBuilder",
+                "printedName": "MoneyHashLean.DefaultMoneyHashLeanBuilder",
+                "usr": "s:13MoneyHashLean07DefaultabC7BuilderC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MoneyHashSDK",
+                "printedName": "any MoneyHashCore.MoneyHashSDK",
+                "usr": "s:13MoneyHashCore0aB3SDKP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13MoneyHashLean07DefaultabC7BuilderC03setaB3SDK05moneybG0AC0aB4Core0abG0_p_tF",
+            "mangledName": "$s13MoneyHashLean07DefaultabC7BuilderC03setaB3SDK05moneybG0AC0aB4Core0abG0_p_tF",
+            "moduleName": "MoneyHashLean",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "build",
+            "printedName": "build()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "MoneyHashBankAccountSDK",
+                "printedName": "any MoneyHashCore.MoneyHashBankAccountSDK",
+                "usr": "s:13MoneyHashCore0aB14BankAccountSDKP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13MoneyHashLean07DefaultabC7BuilderC5build0aB4Core0aB14BankAccountSDK_pyF",
+            "mangledName": "$s13MoneyHashLean07DefaultabC7BuilderC5build0aB4Core0aB14BankAccountSDK_pyF",
+            "moduleName": "MoneyHashLean",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:13MoneyHashLean07DefaultabC7BuilderC",
+        "mangledName": "$s13MoneyHashLean07DefaultabC7BuilderC",
+        "moduleName": "MoneyHashLean",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": []
+}
