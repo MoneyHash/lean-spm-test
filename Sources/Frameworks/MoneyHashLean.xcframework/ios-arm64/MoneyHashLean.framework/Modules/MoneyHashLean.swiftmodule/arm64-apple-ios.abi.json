@@ -36,6 +36,300 @@
         "moduleName": "MoneyHashLean"
       },
       {
+        "kind": "TypeDecl",
+        "name": "MoneyHashLeanError",
+        "printedName": "MoneyHashLeanError",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "missingBankAccountInformation",
+            "printedName": "missingBankAccountInformation",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(MoneyHashLean.MoneyHashLeanError.Type) -> MoneyHashLean.MoneyHashLeanError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MoneyHashLeanError",
+                    "printedName": "MoneyHashLean.MoneyHashLeanError",
+                    "usr": "s:13MoneyHashLean0abC5ErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "MoneyHashLean.MoneyHashLeanError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "MoneyHashLeanError",
+                        "printedName": "MoneyHashLean.MoneyHashLeanError",
+                        "usr": "s:13MoneyHashLean0abC5ErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:13MoneyHashLean0abC5ErrorO29missingBankAccountInformationyA2CmF",
+            "mangledName": "$s13MoneyHashLean0abC5ErrorO29missingBankAccountInformationyA2CmF",
+            "moduleName": "MoneyHashLean"
+          },
+          {
+            "kind": "Var",
+            "name": "missingApplicationId",
+            "printedName": "missingApplicationId",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(MoneyHashLean.MoneyHashLeanError.Type) -> MoneyHashLean.MoneyHashLeanError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MoneyHashLeanError",
+                    "printedName": "MoneyHashLean.MoneyHashLeanError",
+                    "usr": "s:13MoneyHashLean0abC5ErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "MoneyHashLean.MoneyHashLeanError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "MoneyHashLeanError",
+                        "printedName": "MoneyHashLean.MoneyHashLeanError",
+                        "usr": "s:13MoneyHashLean0abC5ErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:13MoneyHashLean0abC5ErrorO20missingApplicationIdyA2CmF",
+            "mangledName": "$s13MoneyHashLean0abC5ErrorO20missingApplicationIdyA2CmF",
+            "moduleName": "MoneyHashLean"
+          },
+          {
+            "kind": "Var",
+            "name": "missingSubmitUrl",
+            "printedName": "missingSubmitUrl",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(MoneyHashLean.MoneyHashLeanError.Type) -> MoneyHashLean.MoneyHashLeanError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MoneyHashLeanError",
+                    "printedName": "MoneyHashLean.MoneyHashLeanError",
+                    "usr": "s:13MoneyHashLean0abC5ErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "MoneyHashLean.MoneyHashLeanError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "MoneyHashLeanError",
+                        "printedName": "MoneyHashLean.MoneyHashLeanError",
+                        "usr": "s:13MoneyHashLean0abC5ErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:13MoneyHashLean0abC5ErrorO16missingSubmitUrlyA2CmF",
+            "mangledName": "$s13MoneyHashLean0abC5ErrorO16missingSubmitUrlyA2CmF",
+            "moduleName": "MoneyHashLean"
+          },
+          {
+            "kind": "Var",
+            "name": "missingLeanPaymentInformation",
+            "printedName": "missingLeanPaymentInformation",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(MoneyHashLean.MoneyHashLeanError.Type) -> MoneyHashLean.MoneyHashLeanError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MoneyHashLeanError",
+                    "printedName": "MoneyHashLean.MoneyHashLeanError",
+                    "usr": "s:13MoneyHashLean0abC5ErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "MoneyHashLean.MoneyHashLeanError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "MoneyHashLeanError",
+                        "printedName": "MoneyHashLean.MoneyHashLeanError",
+                        "usr": "s:13MoneyHashLean0abC5ErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:13MoneyHashLean0abC5ErrorO07missingC18PaymentInformationyA2CmF",
+            "mangledName": "$s13MoneyHashLean0abC5ErrorO07missingC18PaymentInformationyA2CmF",
+            "moduleName": "MoneyHashLean"
+          },
+          {
+            "kind": "Var",
+            "name": "missingPresentingViewController",
+            "printedName": "missingPresentingViewController",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(MoneyHashLean.MoneyHashLeanError.Type) -> MoneyHashLean.MoneyHashLeanError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MoneyHashLeanError",
+                    "printedName": "MoneyHashLean.MoneyHashLeanError",
+                    "usr": "s:13MoneyHashLean0abC5ErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "MoneyHashLean.MoneyHashLeanError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "MoneyHashLeanError",
+                        "printedName": "MoneyHashLean.MoneyHashLeanError",
+                        "usr": "s:13MoneyHashLean0abC5ErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:13MoneyHashLean0abC5ErrorO31missingPresentingViewControlleryA2CmF",
+            "mangledName": "$s13MoneyHashLean0abC5ErrorO31missingPresentingViewControlleryA2CmF",
+            "moduleName": "MoneyHashLean"
+          },
+          {
+            "kind": "Var",
+            "name": "leanFailure",
+            "printedName": "leanFailure",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(MoneyHashLean.MoneyHashLeanError.Type) -> (LeanSDK.LeanStatus?) -> MoneyHashLean.MoneyHashLeanError",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(LeanSDK.LeanStatus?) -> MoneyHashLean.MoneyHashLeanError",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "MoneyHashLeanError",
+                        "printedName": "MoneyHashLean.MoneyHashLeanError",
+                        "usr": "s:13MoneyHashLean0abC5ErrorO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(status: LeanSDK.LeanStatus?)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Optional",
+                            "printedName": "LeanSDK.LeanStatus?",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "LeanStatus",
+                                "printedName": "LeanSDK.LeanStatus",
+                                "usr": "s:7LeanSDK0A6StatusV"
+                              }
+                            ],
+                            "usr": "s:Sq"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "MoneyHashLean.MoneyHashLeanError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "MoneyHashLeanError",
+                        "printedName": "MoneyHashLean.MoneyHashLeanError",
+                        "usr": "s:13MoneyHashLean0abC5ErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:13MoneyHashLean0abC5ErrorO11leanFailureyAC0C3SDK0C6StatusVSg_tcACmF",
+            "mangledName": "$s13MoneyHashLean0abC5ErrorO11leanFailureyAC0C3SDK0C6StatusVSg_tcACmF",
+            "moduleName": "MoneyHashLean"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:13MoneyHashLean0abC5ErrorO",
+        "mangledName": "$s13MoneyHashLean0abC5ErrorO",
+        "moduleName": "MoneyHashLean",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Error",
+            "printedName": "Error",
+            "usr": "s:s5ErrorP",
+            "mangledName": "$ss5ErrorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
         "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
@@ -70,23 +364,13 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "(any MoneyHashCore.MoneyHashSDK)?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "MoneyHashSDK",
-                    "printedName": "any MoneyHashCore.MoneyHashSDK",
-                    "usr": "s:13MoneyHashCore0aB3SDKP"
-                  }
-                ],
-                "hasDefaultArg": true,
-                "usr": "s:Sq"
+                "name": "ProtocolComposition",
+                "printedName": "any MoneyHashCore.BankAccountInformationProvider & MoneyHashCore.MoneyHashSDK"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:13MoneyHashLean07DefaultabC7BuilderC05moneyB3SDKAC0aB4Core0abG0_pSg_tcfc",
-            "mangledName": "$s13MoneyHashLean07DefaultabC7BuilderC05moneyB3SDKAC0aB4Core0abG0_pSg_tcfc",
+            "usr": "s:13MoneyHashLean07DefaultabC7BuilderC05moneyB3SDKAC0aB4Core30BankAccountInformationProvider_AE0abG0p_tcfc",
+            "mangledName": "$s13MoneyHashLean07DefaultabC7BuilderC05moneyB3SDKAC0aB4Core30BankAccountInformationProvider_AE0abG0p_tcfc",
             "moduleName": "MoneyHashLean",
             "declAttributes": [
               "AccessControl"
@@ -95,48 +379,22 @@
           },
           {
             "kind": "Function",
-            "name": "setMoneyHashSDK",
-            "printedName": "setMoneyHashSDK(moneyHashSDK:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "DefaultMoneyHashLeanBuilder",
-                "printedName": "MoneyHashLean.DefaultMoneyHashLeanBuilder",
-                "usr": "s:13MoneyHashLean07DefaultabC7BuilderC"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "MoneyHashSDK",
-                "printedName": "any MoneyHashCore.MoneyHashSDK",
-                "usr": "s:13MoneyHashCore0aB3SDKP"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:13MoneyHashLean07DefaultabC7BuilderC03setaB3SDK05moneybG0AC0aB4Core0abG0_p_tF",
-            "mangledName": "$s13MoneyHashLean07DefaultabC7BuilderC03setaB3SDK05moneybG0AC0aB4Core0abG0_p_tF",
-            "moduleName": "MoneyHashLean",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
             "name": "build",
             "printedName": "build()",
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "MoneyHashBankAccountSDK",
-                "printedName": "any MoneyHashCore.MoneyHashBankAccountSDK",
-                "usr": "s:13MoneyHashCore0aB14BankAccountSDKP"
+                "name": "MoneyHashLeanSDK",
+                "printedName": "any MoneyHashCore.MoneyHashLeanSDK",
+                "usr": "s:13MoneyHashCore0aB7LeanSDKP"
               }
             ],
             "declKind": "Func",
-            "usr": "s:13MoneyHashLean07DefaultabC7BuilderC5build0aB4Core0aB14BankAccountSDK_pyF",
-            "mangledName": "$s13MoneyHashLean07DefaultabC7BuilderC5build0aB4Core0aB14BankAccountSDK_pyF",
+            "usr": "s:13MoneyHashLean07DefaultabC7BuilderC5build0aB4Core0abC3SDK_pyF",
+            "mangledName": "$s13MoneyHashLean07DefaultabC7BuilderC5build0aB4Core0abC3SDK_pyF",
             "moduleName": "MoneyHashLean",
             "declAttributes": [
+              "Final",
               "AccessControl"
             ],
             "funcSelfKind": "NonMutating"
@@ -147,6 +405,7 @@
         "mangledName": "$s13MoneyHashLean07DefaultabC7BuilderC",
         "moduleName": "MoneyHashLean",
         "declAttributes": [
+          "Final",
           "AccessControl"
         ],
         "conformances": [

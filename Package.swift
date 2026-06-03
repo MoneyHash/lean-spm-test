@@ -15,7 +15,8 @@ let package = Package(
     dependencies: [
         .package(
             name: "MoneyHashCore",
-            path: "../moneyhashCore-spm"
+            url: "https://github.com/MoneyHash/core-ios-test-spm.git",
+            .exact("0.0.3")
         ),
         .package(
             url: "https://github.com/leantechnologies/link-sdk-ios-distribution",
