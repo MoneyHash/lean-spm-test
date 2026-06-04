@@ -22,6 +22,102 @@
         "moduleName": "MoneyHashLean"
       },
       {
+        "kind": "TypeDecl",
+        "name": "DefaultMoneyHashLeanBuilder",
+        "printedName": "DefaultMoneyHashLeanBuilder",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(moneyHashSDK:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DefaultMoneyHashLeanBuilder",
+                "printedName": "MoneyHashLean.DefaultMoneyHashLeanBuilder",
+                "usr": "s:13MoneyHashLean07DefaultabC7BuilderC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ProtocolComposition",
+                "printedName": "any MoneyHashCore.BankAccountInformationProvider & MoneyHashCore.MoneyHashSDK"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:13MoneyHashLean07DefaultabC7BuilderC05moneyB3SDKAC0aB4Core30BankAccountInformationProvider_AE0abG0p_tcfc",
+            "mangledName": "$s13MoneyHashLean07DefaultabC7BuilderC05moneyB3SDKAC0aB4Core30BankAccountInformationProvider_AE0abG0p_tcfc",
+            "moduleName": "MoneyHashLean",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "build",
+            "printedName": "build()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "MoneyHashLeanSDK",
+                "printedName": "any MoneyHashCore.MoneyHashLeanSDK",
+                "usr": "s:13MoneyHashCore0aB7LeanSDKP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13MoneyHashLean07DefaultabC7BuilderC5build0aB4Core0abC3SDK_pyF",
+            "mangledName": "$s13MoneyHashLean07DefaultabC7BuilderC5build0aB4Core0abC3SDK_pyF",
+            "moduleName": "MoneyHashLean",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:13MoneyHashLean07DefaultabC7BuilderC",
+        "mangledName": "$s13MoneyHashLean07DefaultabC7BuilderC",
+        "moduleName": "MoneyHashLean",
+        "declAttributes": [
+          "Final",
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MoneyHashLean",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "MoneyHashCore",
+        "printedName": "MoneyHashCore",
+        "declKind": "Import",
+        "moduleName": "MoneyHashLean"
+      },
+      {
         "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
@@ -326,102 +422,6 @@
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
-          }
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "MoneyHashLean",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "MoneyHashCore",
-        "printedName": "MoneyHashCore",
-        "declKind": "Import",
-        "moduleName": "MoneyHashLean"
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "DefaultMoneyHashLeanBuilder",
-        "printedName": "DefaultMoneyHashLeanBuilder",
-        "children": [
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init(moneyHashSDK:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "DefaultMoneyHashLeanBuilder",
-                "printedName": "MoneyHashLean.DefaultMoneyHashLeanBuilder",
-                "usr": "s:13MoneyHashLean07DefaultabC7BuilderC"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "ProtocolComposition",
-                "printedName": "any MoneyHashCore.BankAccountInformationProvider & MoneyHashCore.MoneyHashSDK"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "s:13MoneyHashLean07DefaultabC7BuilderC05moneyB3SDKAC0aB4Core30BankAccountInformationProvider_AE0abG0p_tcfc",
-            "mangledName": "$s13MoneyHashLean07DefaultabC7BuilderC05moneyB3SDKAC0aB4Core30BankAccountInformationProvider_AE0abG0p_tcfc",
-            "moduleName": "MoneyHashLean",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "init_kind": "Designated"
-          },
-          {
-            "kind": "Function",
-            "name": "build",
-            "printedName": "build()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "MoneyHashLeanSDK",
-                "printedName": "any MoneyHashCore.MoneyHashLeanSDK",
-                "usr": "s:13MoneyHashCore0aB7LeanSDKP"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:13MoneyHashLean07DefaultabC7BuilderC5build0aB4Core0abC3SDK_pyF",
-            "mangledName": "$s13MoneyHashLean07DefaultabC7BuilderC5build0aB4Core0abC3SDK_pyF",
-            "moduleName": "MoneyHashLean",
-            "declAttributes": [
-              "Final",
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          }
-        ],
-        "declKind": "Class",
-        "usr": "s:13MoneyHashLean07DefaultabC7BuilderC",
-        "mangledName": "$s13MoneyHashLean07DefaultabC7BuilderC",
-        "moduleName": "MoneyHashLean",
-        "declAttributes": [
-          "Final",
-          "AccessControl"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
           }
         ]
       }

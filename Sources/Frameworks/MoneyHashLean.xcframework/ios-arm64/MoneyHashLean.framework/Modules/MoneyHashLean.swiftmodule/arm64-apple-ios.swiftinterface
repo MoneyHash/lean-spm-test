@@ -10,6 +10,11 @@ import UIKit
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
+final public class DefaultMoneyHashLeanBuilder {
+  public init(moneyHashSDK: any MoneyHashCore.BankAccountInformationProvider & MoneyHashCore.MoneyHashSDK)
+  final public func build() -> any MoneyHashCore.MoneyHashLeanSDK
+  @objc deinit
+}
 public enum MoneyHashLeanError : Swift.Error {
   case missingBankAccountInformation
   case missingApplicationId
@@ -17,9 +22,4 @@ public enum MoneyHashLeanError : Swift.Error {
   case missingLeanPaymentInformation
   case missingPresentingViewController
   case leanFailure(status: LeanSDK.LeanStatus?)
-}
-final public class DefaultMoneyHashLeanBuilder {
-  public init(moneyHashSDK: any MoneyHashCore.BankAccountInformationProvider & MoneyHashCore.MoneyHashSDK)
-  final public func build() -> any MoneyHashCore.MoneyHashLeanSDK
-  @objc deinit
 }
