@@ -16,7 +16,7 @@ let package = Package(
         .package(
             name: "MoneyHashCore",
             url: "https://github.com/MoneyHash/core-ios-test-spm.git",
-            .exact("0.0.4-beta.2")
+            .exact("0.0.4-beta.3")
         ),
         .package(
             url: "https://github.com/leantechnologies/link-sdk-ios-distribution",
@@ -27,14 +27,15 @@ let package = Package(
         .target(
             name: "MoneyHashLeanSDK",
             dependencies: [
-                .target(name: "moeyhashleantest"),
+                .target(name: "MoneyHashLean"),
                 .product(name: "MoneyHashCore", package: "MoneyHashCore"),
                 .product(name: "LeanSDK", package: "link-sdk-ios-distribution")
             ]
         ),
         .binaryTarget(
-            name: "moeyhashleantest",
-            path: "Sources/Frameworks/MoneyHashLean.xcframework"
+            name: "MoneyHashLean",
+            url: "https://github.com/MoneyHash/lean-spm-test/releases/download/0.0.2-beta.3/MoneyHashLean.xcframework.zip",
+            checksum: "dd56290f45f2834532f2265b65719bee3991a92aae1cb7d33ba11cba29e29771"
         )
     ]
 )
