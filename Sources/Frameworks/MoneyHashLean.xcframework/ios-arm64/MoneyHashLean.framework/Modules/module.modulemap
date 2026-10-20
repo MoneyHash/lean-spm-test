@@ -1,0 +1,4 @@
+framework module MoneyHashLean {
+  header "MoneyHashLean-Swift.h"
+  requires objc
+}

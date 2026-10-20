@@ -16,11 +16,11 @@ let package = Package(
         .package(
             name: "MoneyHashCore",
             url: "https://github.com/MoneyHash/core-ios-test-spm.git",
-            .exact("0.0.4-beta.1")
+            .exact("0.0.4-beta.2")
         ),
         .package(
             url: "https://github.com/leantechnologies/link-sdk-ios-distribution",
-            exact: "3.0.19"
+            exact: "3.0.23"
         )
     ],
     targets: [

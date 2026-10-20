@@ -1,25 +1,42 @@
 // swift-interface-format-version: 1.0
 // swift-compiler-version: Apple Swift version 6.1.2 effective-5.10 (swiftlang-6.1.2.1.2 clang-1700.0.13.5)
-// swift-module-flags: -target arm64-apple-ios26.2 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-upcoming-feature MemberImportVisibility -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name MoneyHashLean
-// swift-module-flags-ignorable:  -interface-compiler-version 6.1.2
+// swift-module-flags: -target arm64-apple-ios14.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name MoneyHashLean
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -interface-compiler-version 6.1.2
 import Foundation
 import LeanSDK
-import MoneyHashCore
+@_spi(MoneyHashInternal) import MoneyHashCore
 import Swift
 import UIKit
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
-final public class DefaultMoneyHashLeanBuilder {
-  public init(moneyHashSDK: any MoneyHashCore.BankAccountInformationProvider & MoneyHashCore.MoneyHashSDK)
-  final public func build() -> any MoneyHashCore.MoneyHashLeanSDK
+public class MoneyHashLeanBuilder {
+  public init(moneyHash: any MoneyHashCore.MoneyHashContextProvider)
+  public func build() -> any MoneyHashLean.MoneyHashLeanSDK
   @objc deinit
 }
 public enum MoneyHashLeanError : Swift.Error {
   case missingBankAccountInformation
   case missingApplicationId
   case missingSubmitUrl
-  case missingLeanPaymentInformation
-  case missingPresentingViewController
-  case leanFailure(status: LeanSDK.LeanStatus?)
+  case missingPaymentInformation
+  case anotherFlowInProgress
+  case flowInterrupted
+  public static func == (a: MoneyHashLean.MoneyHashLeanError, b: MoneyHashLean.MoneyHashLeanError) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
 }
+extension MoneyHashLean.MoneyHashLeanError : Foundation.LocalizedError {
+  public var errorDescription: Swift.String? {
+    get
+  }
+}
+public protocol MoneyHashLeanSDK {
+  func connectBankAccount(intentId: Swift.String, presentingViewController: UIKit.UIViewController) async throws -> MoneyHashLean.TokenizeState
+  func payWithBankAccount(intentId: Swift.String, bankAccountPayData: MoneyHashCore.BankAccountPayData, presentingViewController: UIKit.UIViewController) async throws -> MoneyHashCore.IntentDetails
+}
+public typealias TokenizeState = MoneyHashCore.BankAccountTokenizationStatus
+extension MoneyHashLean.MoneyHashLeanError : Swift.Equatable {}
+extension MoneyHashLean.MoneyHashLeanError : Swift.Hashable {}
