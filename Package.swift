@@ -34,8 +34,8 @@ let package = Package(
         ),
         .binaryTarget(
             name: "MoneyHashLean",
-            url: "https://github.com/MoneyHash/lean-spm-test/releases/download/0.0.2-beta.3/MoneyHashLean.xcframework.zip",
-            checksum: "dd56290f45f2834532f2265b65719bee3991a92aae1cb7d33ba11cba29e29771"
+            url: "https://github.com/MoneyHash/lean-spm-test/releases/download/0.0.2-dev.1/MoneyHashLean.xcframework.zip",
+            checksum: "e7858f9679f21e53ada6b20f490144ef6ef9d6173e51e4e613a75992bf163549"
         )
     ]
 )
